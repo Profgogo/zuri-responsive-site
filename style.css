@@ -1,0 +1,196 @@
+@media only screen and (max-width:798px){
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image: url(bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%) ;
+
+    
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+   
+}
+.see{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+.long{
+    background-color: hsl(248, 32%, 49%);
+    width: 65%;
+    margin-top: 10%;
+    height: 10%;
+    border-radius: 7px;
+    margin: 8%;
+    padding: 8%;
+
+  
+  }
+  .try{
+      font-size: 15px;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 10px;
+      padding-left: 20%;
+  }
+  .then{
+    color: hsl(246, 25%, 77%);
+
+}
+form{
+    background-color: white;
+    height:  70%;
+    border-radius: 9px;
+    width: 80%;
+    margin: 4%;
+    margin-left: 10%;
+}
+input{
+    background-color:white;
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid  hsl(246, 25%, 77%);
+    margin-left: 7%;
+    margin-top: 3%;
+}
+input:hover{
+    border: 1px solid hsl(249, 10%, 26%) ;
+}
+::placeholder{
+color: black;
+font-family: 'Poppins', sans-serif;
+padding-left: 5% ;
+}
+.green{
+    background-color: hsl(154, 59%, 51%);
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.click{
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    padding-left: 13%;
+}
+.terms{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 100%, 74%) 
+}
+
+}
+@media (min-width:798px){
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+
+    
+}
+.box{
+    display:flex;
+    height: 100%;
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 10%;
+   
+}
+.first{
+    flex:2;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.second{
+    flex:2;
+
+}
+.long{
+  background-color: hsl(248, 32%, 49%);
+  width: 70%;
+  margin-top: 10%;
+  height: 10%;
+  border-radius: 7px;
+
+}
+.try{
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    padding-left: 20%;
+}
+.then{
+    color: hsl(246, 25%, 77%);
+
+}
+.see{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+}
+form{
+    background-color: white;
+    height:  75%;
+    border-radius: 9px;
+    width: 70%;
+}
+input{
+    background-color:white;
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid  hsl(246, 25%, 77%);
+    margin-left: 7%;
+    margin-top: 3%;
+}
+input:hover{
+    border: 1px solid hsl(249, 10%, 26%) ;
+}
+::placeholder{
+color: black;
+font-family: 'Poppins', sans-serif;
+padding-left: 5% ;
+}
+.green{
+    background-color: hsl(154, 59%, 51%);
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.click{
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    padding-left: 13%;
+}
+.terms{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 100%, 74%) 
+}
+}
